@@ -404,7 +404,7 @@ footer {
         align-items: center;
         cursor: pointer;
         width:100%;
-        margin:0 auto;
+        margin-left:10px;
     }
 
     .imagens-especialidades img {
