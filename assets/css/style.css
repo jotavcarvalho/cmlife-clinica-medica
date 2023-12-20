@@ -403,14 +403,16 @@ footer {
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        width:100%;
         margin:0 auto;
     }
 
     .imagens-especialidades img {
-        width: 90%;
+        width: 95%;
         height: 220px;
         border-radius: 5px;
         box-shadow: 0 0 5px 1px rgb(137, 127, 127);
+        margin: 0 auto;
     }
 
     .imagens-especialidades figcaption {
@@ -423,7 +425,7 @@ footer {
     .imagens-especialidades figcaption {
         position: relative;
         top: -40px;
-        width: 90%;
+        width: 95%;
         height: 45px;
         background-color: #ffffff;
         box-shadow: 0 0 5px 1px rgb(137, 127, 127);
