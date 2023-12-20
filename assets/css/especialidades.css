@@ -1,0 +1,389 @@
+/*Zerando o CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*estilizando as ancoras do topo da pagina*/
+
+.espaco-ancoras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links-ancoras {
+    /*permite espaçamento correto das ancoras(links)*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-ancoras a {
+    margin: 30px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: solid 3px rgb(20, 191, 191);
+    color: rgb(67, 65, 65);
+    font-weight: bold;
+}
+
+.links-ancoras a:hover {
+    transform: scale(1.03);
+}
+
+
+/*estilizando os titulos e informações das especialidades, aplicando um único estilo para todas as especialidades*/
+
+.espaco-especialidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.espaco-especialidades {
+    color: rgb(67, 65, 65);
+}
+
+.espaco-especialidades h1 {
+    padding: 50px 0 30px;
+    font-size: 25px;
+}
+
+.espaco-especialidades p {
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*estilizando as imagens e tabelas*/
+
+.ortopedia-datas {
+    width: 100%;
+}
+
+.ortopedia-datas img,
+table {
+    height: 250px;
+}
+
+.ortopedia-datas img {
+    width: 320px;
+}
+
+.table-ortopedia {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-ortopedia thead th {
+    text-align: left;
+    background-color: rgb(20, 191, 191);
+    color: #f5f5f5;
+    padding: 15px;
+    border: none;
+}
+
+.table-ortopedia tbody td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.table-ortopedia tbody tr:nth-of-type(odd) {
+    background-color: rgb(198, 195, 195);
+}
+
+.table-ortopedia tbody tr:nth-of-type(even) {
+    background-color: rgb(231, 228, 228);
+}
+
+/*Pediatria*/
+
+.pediatria-datas {
+    width: 100%;
+}
+
+.pediatria-datas img,
+table {
+    height: 250px;
+}
+
+.pediatria-datas img {
+    width: 320px;
+}
+
+.table-pediatria {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-pediatria thead th {
+    text-align: left;
+    background-color: rgb(20, 191, 191);
+    color: #f5f5f5;
+    padding: 15px;
+    border: none;
+}
+
+.table-pediatria tbody td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.table-pediatria tbody tr:nth-of-type(odd) {
+    background-color: rgb(198, 195, 195);
+}
+
+.table-pediatria tbody tr:nth-of-type(even) {
+    background-color: rgb(231, 228, 228);
+}
+
+/*geriatria*/
+
+.geriatria-datas {
+    width: 100%;
+}
+
+.geriatria-datas img,
+table {
+    height: 250px;
+}
+
+.geriatria-datas img {
+    width: 320px;
+}
+
+.table-geriatria {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-geriatria thead th {
+    text-align: left;
+    background-color: rgb(20, 191, 191);
+    color: #f5f5f5;
+    padding: 15px;
+    border: none;
+}
+
+.table-geriatria tbody td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.table-geriatria tbody tr:nth-of-type(odd) {
+    background-color: rgb(198, 195, 195);
+}
+
+.table-geriatria tbody tr:nth-of-type(even) {
+    background-color: rgb(231, 228, 228);
+}
+
+/*psicologia*/
+
+.psicologia-datas {
+    width: 100%;
+}
+
+.psicologia-datas img,
+table {
+    height: 250px;
+}
+
+.psicologia-datas img {
+    width: 320px;
+}
+
+.table-psicologia {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-psicologia thead th {
+    text-align: left;
+    background-color: rgb(20, 191, 191);
+    color: #f5f5f5;
+    padding: 15px;
+    border: none;
+}
+
+.table-psicologia tbody td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.table-psicologia tbody tr:nth-of-type(odd) {
+    background-color: rgb(198, 195, 195);
+}
+
+.table-psicologia tbody tr:nth-of-type(even) {
+    background-color: rgb(231, 228, 228);
+}
+
+/*fisioterapia*/
+
+.fisioterapia-datas {
+    width: 100%;
+}
+
+.fisioterapia-datas img,
+table {
+    height: 250px;
+}
+
+.fisioterapia-datas img {
+    width: 320px;
+}
+
+.table-fisioterapia {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-fisioterapia thead th {
+    text-align: left;
+    background-color: rgb(20, 191, 191);
+    color: #f5f5f5;
+    padding: 15px;
+    border: none;
+}
+
+.table-fisioterapia tbody td {
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.table-fisioterapia tbody tr:nth-of-type(odd) {
+    background-color: rgb(198, 195, 195);
+}
+
+.table-fisioterapia tbody tr:nth-of-type(even) {
+    background-color: rgb(231, 228, 228);
+}
+
+/*footer*/
+
+footer {
+    margin-top: 50px;
+}
+
+/* aplicando responsividade por meio de medias queries*/
+
+@media (min-width:320px) and (max-width:425px) {
+   
+        /*header - menu*/
+
+    .limite-largura {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0 10px;
+        width: 100%;
+    }
+
+    .nav-links {
+        color: rgb(241, 234, 234);
+        font-size: 22px;
+        text-decoration: none;
+        border-top: solid 2px rgb(15, 155, 155);
+        gap: 50px;
+        padding: 10px;
+    }
+
+    /*ancoras*/
+
+    .espaco-ancoras {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .espaco-ancoras h1 {
+        font-size: 20px;
+        position: relative;
+        left: 3.5%;
+        width: 100%;
+        color: rgb(67, 65, 65);
+    }
+
+    .links-ancoras {
+        /*permite espaçamento correto das ancoras(links)*/
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .links-ancoras a {
+        margin: 30px 10px;
+        text-decoration: none;
+        font-size: 20px;
+        border-bottom: solid 3px rgb(20, 191, 191);
+        color: rgb(67, 65, 65);
+        font-weight: bold;
+    }
+
+
+
+    /*imagens*/
+
+    .ortopedia-datas    img,
+    .pediatria-datas    img,
+    .geriatria-datas    img,
+    .psicologia-datas   img,
+    .fisioterapia-datas img {
+        display: none;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+     /*header - menu*/
+        
+     .limite-largura {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    
+
+
+    /*tabela*/
+
+    table{
+        margin:20px;
+        justify-content: center;
+    }
+
+      /*imagens*/
+
+      .ortopedia-datas    img,
+      .pediatria-datas    img,
+      .geriatria-datas    img,
+      .psicologia-datas   img,
+      .fisioterapia-datas img {
+          display: none;
+      }
+  
+}
