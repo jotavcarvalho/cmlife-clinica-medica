@@ -411,6 +411,7 @@ footer {
         height: 220px;
         border-radius: 5px;
         box-shadow: 0 0 5px 1px rgb(137, 127, 127);
+        margin:0 auto;
     }
 
     .imagens-especialidades figcaption {
